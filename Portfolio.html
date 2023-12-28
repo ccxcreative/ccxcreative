@@ -7,16 +7,42 @@
     <link rel="stylesheet" href="Pstylesheet/PortfolioSS.css">
 </head>
 <body>
+
+        <!-- The Popup -->
+<div id="myModal" class="modal">
+
+    <!-- Popup content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-header">
+      Contact Us
+    </div>
+    <form id="contactForm" action="submit_form.php" method="post">
+        <input type="text" id="name" name="name" placeholder="Name">
+        <input type="email" id="email" name="email" placeholder="Email">
+        <input type="tel" id="phonenumber" maxlength="12" name="phone" placeholder="Number">
+        <textarea id="message" name="message" placeholder="Your Message Here"></textarea>
+        <input type="submit" value="Submit">
+    </form> 
+  </div>
+
+</div>
+
+
+
+
+
+
         <!--Header-->
         <header id="home"class="header">
             <div class= "grid-container">
-                <img class="logo-pos" src="Images/Logo.png" alt="logo" width="50px">
+                <a href="index.html"><img class="logo-pos" src="Images/Logo.png" alt="logo" width="50px"></a>
                <nav class="nav">
                     <a class="navtext" href="index.html">Home</a>
-                    <a class="navtext" href="Portfolio/Portfolio.html">Portfolio</a>
-                    <a class="navtext" href="#wai">About</a>
-                    <a class="navtext" href="#services">Services</a>
-                    <a class="navtext" href="#footer">Contact</a>
+                    <a class="navtext" href="#home">Portfolio</a>
+                    <a class="navtext" href="index.html #wai">About</a>
+                    <a class="navtext" href="index.html #services">Services</a>
+                    <a class="navtext" id="myBtn">Contact</a>
                </nav>             
             </div>
         </header>
@@ -78,5 +104,7 @@
         </div>
     
     </footer>
+
+    <script src="Javascript/Script.js"></script>
 </body>
 </html>

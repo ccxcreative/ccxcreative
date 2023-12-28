@@ -19,11 +19,11 @@
     <div class="modal-header">
       Contact Us
     </div>
-    <form id="contactForm" action="submit_form.php" method="post">
-        <input type="text" id="name" name="name" placeholder="Name">
-        <input type="email" id="email" name="email" placeholder="Email">
-        <input type="tel" id="phonenumber" maxlength="12" name="phone" placeholder="Number">
-        <textarea id="message" name="message" placeholder="Your Message Here"></textarea>
+    <form id="contactForm" action="https://formspree.io/f/myyrgroj" method="POST">
+        <input type="text" id="name" name="Name" placeholder="Name">
+        <input type="email" id="email" name="Email" placeholder="Email">
+        <input type="tel" id="phonenumber" maxlength="12" name="Phone" placeholder="Number">
+        <textarea id="message" name="Message" placeholder="Your Message Here"></textarea>
         <input type="submit" value="Submit">
     </form> 
   </div>
@@ -35,13 +35,13 @@
     <!--Header-->
     <header id="home"class="header">
         <div class= "grid-container">
-            <img class="logo-pos" src="Images/Logo.png" alt="logo" width="50px">
+            <a href="#home"><img class="logo-pos" src="Images/Logo.png" alt="logo" width="50px"></a>
            <nav class="nav">
                 <a class="navtext" href="#home">Home</a>
                 <a class="navtext" href="Portfolio.html">Portfolio</a>
                 <a class="navtext" href="#wai">About</a>
                 <a class="navtext" href="#services">Services</a>
-                <button class="navtext" id="myBtn">Contact</button>
+                <a class="navtext" id="myBtn">Contact</a>
            </nav>             
         </div>
     </header>
@@ -61,12 +61,11 @@
                         </p>
                 </div>
                     <div class="aboutmetext">
-                        <p>Hello and welcome! I'm Gustavo Gonzalez, a 
+                        <p>Hello! I'm Gustavo Gonzalez, a 
                     passionate graphic design and advertising 
                     student at Grand Canyon University. My journey 
-                    in the world of design began in the 6th grade, 
-                    evolving from early experiments with logos and 
-                    Photoshop to a deep-seated passion for 
+                    began in the 6th grade, evolving from early experiments 
+                    with logos and Photoshop to a deep-seated passion for 
                     branding and visual storytelling.
                     Design, to me, is more than just aesthetics; it's a 
                     strategic tool for communication and brand 
@@ -78,7 +77,7 @@
                         </p>
                     </div>
                     <div class="aboutmetext2">
-                    <p>As a budding professional in this dynamic field, I am committed to leveraging my skills to help you develop a distinctive visual presence for your brand. I offer a blend of creativity and strategic thinking, aiming to craft solutions that are not only visually striking but also align perfectly with your brand's ethos and objectives.
+                    <p>I am committed to leveraging my skills to help you develop a distinctive visual presence for your brand. I offer a blend of creativity and strategic thinking, aiming to craft solutions that are not only visually striking but also align perfectly with your brand's ethos and objectives.
                         </p>
                         </div>
                     <div class="aboutmetext3">
@@ -96,20 +95,29 @@
         <div class="service">
             <img id="services" src="Images/Services.png"alt="Services">
         </div>
+        <br>
+        <br>
+        <br>
         <div class="grid-container3">
             
                 <div class="Logopack center">
-                    <p class="packtext"> <span class="subject">Custom Logo</span><br>Elevate your brand with our custom logo design service, where your vision meets our creative expertise. We specialize in creating unique, memorable logos that embody your brand’s essence and values. Our collaborative approach ensures your logo resonates with your target audience while remaining versatile across digital and print mediums.</p>
+                    <p class="packtext"> <span class="subject">Custom Logo</span><br><br>Elevate your brand with our custom logo design service, where your vision meets our creative expertise. We specialize in creating unique, memorable logos that embody your brand’s essence and values. Our collaborative approach ensures your logo resonates with your target audience while remaining versatile across digital and print mediums.</p>
                 </div>
                 <div class="rebrandpack center">
                     <div>
-                        <p class="packtext"> <span class="subject">Brand Identity Creation</span><br>Transform your brand with our comprehensive logo and branding service. We craft a distinctive logo and develop a cohesive branding style, complete with a tailored color palette, fonts, and graphics. Our package includes a detailed style guide to ensure consistent and impactful brand representation across all mediums. Elevate your business with a visually stunning and unified brand identity.</p>
+                        <p class="packtextrebrand"> <span class="subject">Brand Identity Creation
+                        </span><br><br> Transform your brand with our comprehensive logo and branding 
+                        service. We craft a distinctive logo and develop a cohesive branding style, 
+                        complete with a tailored color palette, fonts, and graphics. Our package 
+                        includes a detailed style guide to ensure consistent and impactful brand 
+                        representation across all mediums. Elevate your business with a visually 
+                        stunning and unified brand identity.</p>
                     </div>
                 </div>
                 <div class="gfxpack center">
                     <div>
                         <p class="packtext"> <span class="subject">Versatile Graphic Design 
-                        Services</span><br> Elevate your business materials with our 
+                        Services</span><br><br> Elevate your business materials with our 
                         custom graphic design solutions. We specialize 
                         in crafting compelling brochures, professional 
                         business cards, and a range of other design 
@@ -126,7 +134,7 @@
         <div class="ftext grid-container4">
             <p class="ftext">ccx.creative@gmail.com</p>
             <p class="ftext" style="color: #FF2559; font-size: 18px;">CCX Creative</p>
-            <p class="ftext" >602-394-2745</p>
+            <p class="ftext ccxphone" id="ccxphone" type="tele">602-394-2745</p>
         </div>
     
     </footer>

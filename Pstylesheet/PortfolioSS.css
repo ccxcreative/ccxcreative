@@ -15,6 +15,96 @@ a {
     text-decoration: none;
 }
 
+
+
+/**PopUp**/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+.modal-content {
+    background-image: url("../PImages/popup.png");
+    background-position: center;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 88px;
+    width: 15%; /* Could be more or less, depending on screen size */
+    border-radius: 36px; /* Rounded corners */
+    position: relative; /* For absolute positioning of the close button */
+  }
+
+  .modal-header {
+    font-size: 32px;
+    margin-bottom: 26px;
+    font-weight: 550;
+    text-align: center;
+    color: #FF2659;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px; /* Some padding inside the input */
+  margin-bottom: 26px; /* Spacing between each field */
+  border: 3px solid #6C6C6C; /* Light grey border */
+  border-radius: 4px; /* Slightly rounded borders for the input fields */
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff2659; /* Pink background color */
+  border: none;
+  border-radius: 20px; /* Rounded pill shape */
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #e0214f; /* Slightly darker pink on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%; /* Make modal wider on smaller screens */
+  }
+}
+
+
+
+
 /**Header**/
 
 .grid-container {

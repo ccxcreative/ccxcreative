@@ -180,18 +180,14 @@ input[type="submit"]:hover {
     margin: auto;
     width: 750px;
     height: 513px;
-    background-color: #1D1D1D;
-}
-
-.wailoc {
-    
+    background-color: #1d1d1df3;
 }
 
 .portrait {
     height: 513px;
     margin: auto;
     width: 335px;
-    background-color: #1D1D1D;
+    background-color: #1d1d1df3;
 }
 
 .wai {
@@ -237,7 +233,7 @@ input[type="submit"]:hover {
     height: auto;
     width: 260px;
     left: 70%;
-    top: 75%;
+    top: 73%;
     transform: translateX(-50%) translateY(-50%);
     line-height: 22px;
 }
@@ -281,19 +277,19 @@ input[type="submit"]:hover {
 .Logopack {
     width: 328px;
     height: 401px;
-    background-color: #1D1D1D;
+    background-color: #1d1d1df3;
 }
 
 .rebrandpack {
-    width: 328px;
-    height: 401px;
-    background-color: #1D1D1D;
+    width: 410px;
+    height: 501px;
+    background-color: #1d1d1df3;
 }
 
 .gfxpack {
     width: 328px;
     height: 401px;
-    background-color: #1D1D1D;
+    background-color: #1d1d1df3;
 }
 
 .packtext {
@@ -302,9 +298,20 @@ input[type="submit"]:hover {
     height: 212px;
     font-size: 12px;
     line-height: 25px;
-    margin-top: 59px;
-    margin-left: 39px;
-    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.packtextrebrand {
+    color: white;
+    width: 312.5px;
+    height: 265px;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: left;
 }
 
 .subject {
